@@ -1,6 +1,7 @@
 # LanguagDAO-AI
 Implementation of OpenAI GPT3 for the purpose of translating document from web3, as stewarded by LanguageDAO.
 
+
 # Set API Key as Environmental Variable, for Mac Users 
 
 # run this command in your terminal to open up your shell profile using the nano text editor. 
@@ -19,4 +20,3 @@ export OPENAI_API_KEY= 'Your API Key'
 pip install --upgrade openai
 openai tools fine_tunes.prepare_data -f <LOCAL_FILE>
 openai api fine_tunes.follow -i <YOUR_FINE_TUNE_JOB_ID>
-
