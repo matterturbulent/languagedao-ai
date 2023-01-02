@@ -1,4 +1,4 @@
-# LanguagDAO-AI
+# LanguageDAO-AI
 Implementation of OpenAI GPT3 for the purpose of translating document from web3, as stewarded by LanguageDAO.
 
 Great documentation here for using the API and fine-tuning:
