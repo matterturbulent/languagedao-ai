@@ -18,6 +18,9 @@ and calling 'os.getenv("OPENAI_API_KEY")'
 
 # OpenAI suggests using their Command Line Interface
 More here: https://beta.openai.com/docs/guides/fine-tuning
+
 pip install --upgrade openai
+
 openai tools fine_tunes.prepare_data -f <LOCAL_FILE>
+
 openai api fine_tunes.follow -i <YOUR_FINE_TUNE_JOB_ID>
