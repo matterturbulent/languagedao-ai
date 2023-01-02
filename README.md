@@ -1,6 +1,11 @@
 # LanguagDAO-AI
 Implementation of OpenAI GPT3 for the purpose of translating document from web3, as stewarded by LanguageDAO.
 
+Great documentation here for using the API and fine-tuning:
+
+https://beta.openai.com/docs/api-reference/introduction
+
+https://beta.openai.com/docs/guides/fine-tuning
 
 # Set API Key as Environmental Variable, for Mac Users 
 Run this command in your terminal to open up your shell profile using the nano text editor.
