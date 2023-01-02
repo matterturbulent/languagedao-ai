@@ -3,10 +3,14 @@ Implementation of OpenAI GPT3 for the purpose of translating document from web3,
 
 
 # Set API Key as Environmental Variable, for Mac Users 
-run this command in your terminal to open up your shell profile using the nano text editor. 
+Run this command in your terminal to open up your shell profile using the nano text editor.
+
 nano ~/.zshrc
-add your OpenAI API Key in place of 'Your API Key'
+
+Add your OpenAI API Key in place of 'Your API Key'
+
 export OPENAI_API_KEY= 'Your API Key'
+
 By setting your API key as an environmental variable in your shell, 
 you can reference it across terminal instances by using the os module
 and calling 'os.getenv("OPENAI_API_KEY")'
